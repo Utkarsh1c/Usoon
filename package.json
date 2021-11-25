@@ -1,0 +1,44 @@
+{
+  "name": "kushina",
+  "version": "0.0.1",
+  "description": "Server repo for usoon",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhanshuchauhan/white-fang.git"
+  },
+  "author": "Erevna Enterprises pvt. ltd.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabhanshuchauhan/white-fang/issues"
+  },
+  "homepage": "https://github.com/prabhanshuchauhan/white-fang#readme",
+  "dependencies": {
+    "argon2": "^0.26.2",
+    "aws-sdk": "^2.831.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.14",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "objection": "^2.2.3",
+    "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5",
+    "twilio": "^3.56.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
